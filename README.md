@@ -27,7 +27,7 @@ This repository contains a complete solution for the Kaggle House Prices competi
 ## Results
 
 - **Best Local CV RMSE:** ~0.118 (slight variance due to environment differences)
-- **Kaggle Submission RMSE:** 0.1164
+- **Best Kaggle CV RMSE:** 0.1164
 - **Average R²:** 0.915
 
 ## Getting Started
