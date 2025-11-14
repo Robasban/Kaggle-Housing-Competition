@@ -1,5 +1,7 @@
 # Kaggle Housing Competition
 
+Log RMSE 0.1164, R² .914 on Kaggle — compact XGBoost pipeline with end-to-end preprocessing, feature engineering, and GridSearchCV optimization.
+
 A comprehensive machine learning pipeline for predicting house prices using XGBoost, scikit-learn, and advanced feature engineering. This project demonstrates end-to-end model development with GridSearchCV optimization and cross-validation evaluation.
 
 ## Overview
