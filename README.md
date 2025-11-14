@@ -16,12 +16,12 @@ This repository contains a complete solution for the Kaggle House Prices competi
 ```
 .
 ├── int-adv-ml-xgboost-gridcv-pipeline-housing.ipynb  # Main analysis notebook
-├── train.csv                                           # Training data
-├── test.csv                                            # Test data
-├── requirements.txt                                    # Python dependencies
-├── .gitignore                                          # Git ignore rules
-├── README.md                                           # This file
-└── LICENSE                                             # MIT License
+├── data/
+│   ├── train.csv                                      # Training data
+│   └── test.csv                                       # Test data
+├── requirements.txt                                   # Python dependencies
+├── README.md                                          # This file
+└── LICENSE                                            # MIT License
 ```
 
 ## Results
@@ -65,7 +65,7 @@ jupyter lab
 jupyter notebook
 ```
 
-Open `int-adv-ml-xgboost-gridcv-pipeline-housing.ipynb` and select the kernel `kaggle-housing-venv` when prompted.
+Open `int-adv-ml-xgboost-gridcv-pipeline-housing.ipynb` and select the kernel `kaggle-housing-venv` when prompted. The notebook reads data from the `data/` directory (e.g. `data/train.csv`).
 
 ## Notebook Walkthrough
 
